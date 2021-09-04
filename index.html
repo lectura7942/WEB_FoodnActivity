@@ -2,53 +2,13 @@
 <html>
 
 <head>
-    <title>[FoodnActivity] 홍대</title>
+    <title>[FoodnActivity] 홈페이지</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <style>
-        a {
-            color: black;
-        }
-
-        body {
-            margin: 0;
-        }
-
-        #sitename {
-            color: blue;
-            text-align: center;
-            border-bottom: grey 2px solid;
-            padding-bottom: 20px;
-        }
-
-        #bar {
-            display: grid;
-            border: grey 2px solid;
-            grid-template-columns: 1fr 1fr 1fr;
-            text-align: center;
-        }
-
-        /* #place {
-            border-right: gray 2px solid;
-        } */
-
-        #current {
-            font-size: 20px;
-            border: red 3px solid;
-        }
-
-        #content {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            
-        }
-
-        .title {
-            border-bottom: gray 2px solid;
-            text-align: center;
-        }
-        .column{
-            border: gray 2px solid;
-        }
+          #content {
+            grid-template-columns: 1fr 2fr;        
+        } 
     </style>
 </head>
 
@@ -56,18 +16,22 @@
 
     <h1 id="sitename"><a href="index.html" title="home page"
             style="color: blue; text-decoration: none;">FoodnActiviy</a></h1>
-    <h2 style="text-align: center; color:blue">Home Page</h2>
+    <h2 style="text-align: center; color:blue">Home</h2>
 
     <div id="content">
         <div id="place" class="column">
             <h2 class="title">Place</h2>
+            <div class="list">
             <li><a href="hongdae.html">홍대</a></li>
-            <li>타임스퀘어</li>
+            <li><a href="gundae.html">건대</a></li>
+            </div> 
         </div>
 
         <div id="summary" class="column">
             <h2 class="title">Summary</h2>
+            <div class="list">
             Website to practice HTML and CSS.
+            </div>
         </div>
 
        

@@ -1,0 +1,44 @@
+a {
+    color: black;
+}
+
+body {
+    margin: 0;
+}
+
+
+#sitename {
+    color: blue;
+    text-align: center;
+    border-bottom: grey 2px solid;
+    padding-bottom: 20px;
+}
+
+#pagename{
+    text-align: center; 
+    color:blue;
+}
+
+#current {
+    border: red 3px solid;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;        
+}
+
+.title {
+    border-bottom: gray 2px solid;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.list{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.column{
+    border: gray 2px solid;
+}
