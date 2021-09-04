@@ -4,4 +4,4 @@
 * using: html, css
 
 ## Memo
-* Need to change food_index.html to index.html
+* Need to finish designing
