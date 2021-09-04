@@ -6,6 +6,10 @@ body {
     margin: 0;
 }
 
+#sitename a{
+    color:blue;
+    text-decoration: none;
+}
 
 #sitename {
     color: blue;
